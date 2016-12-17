@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum API {
+public enum API {
     case stops
     case routes
     case prognosis(stopCode: String)

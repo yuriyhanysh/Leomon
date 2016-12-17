@@ -16,10 +16,9 @@ open class Client {
         session = URLSession(configuration: configuration)
     }
     
-    open func request(_ target: API, completion: (Any?) -> Void) {
+    open func request(_ target: API, completion: @escaping (Any?) -> Void) {
         session.dataTask(with: target.requestURL) { data, response, error in
             guard let data = data else {
-                let error = error
                 completion(nil)
                 return
             }
