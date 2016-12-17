@@ -15,6 +15,7 @@
 		7BD4D7EB1E05E6B200FE1175 /* Decodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4D7EA1E05E6B200FE1175 /* Decodable.framework */; };
 		7BD4D7EE1E05E9CC00FE1175 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7ED1E05E9CC00FE1175 /* Stop.swift */; };
 		7BD4D7F01E05EA6B00FE1175 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7EF1E05EA6B00FE1175 /* Coordinates.swift */; };
+		7BD4D7F61E05F37D00FE1175 /* Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7F51E05F37D00FE1175 /* Fixture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		7BD4D7EA1E05E6B200FE1175 /* Decodable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Decodable.framework; path = Carthage/Build/iOS/Decodable.framework; sourceTree = "<group>"; };
 		7BD4D7ED1E05E9CC00FE1175 /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
 		7BD4D7EF1E05EA6B00FE1175 /* Coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		7BD4D7F51E05F37D00FE1175 /* Fixture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fixture.swift; path = Helpers/Fixture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,8 @@
 		7B73C6CB1DFD832500CEAB74 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				7BD4D7F41E05F34300FE1175 /* Helpers */,
+				7BD4D7F11E05EEBA00FE1175 /* Fixtures */,
 				7B73C6CC1DFD832500CEAB74 /* LeomonTests.swift */,
 				7B73C6CE1DFD832500CEAB74 /* Info.plist */,
 			);
@@ -108,6 +112,21 @@
 				7BD4D7EA1E05E6B200FE1175 /* Decodable.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BD4D7F11E05EEBA00FE1175 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		7BD4D7F41E05F34300FE1175 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4D7F51E05F37D00FE1175 /* Fixture.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +263,7 @@
 			files = (
 				7B73C6DD1DFF258700CEAB74 /* Client.swift in Sources */,
 				7B73C6D91DFDCF7900CEAB74 /* API.swift in Sources */,
+				7BD4D7F61E05F37D00FE1175 /* Fixture.swift in Sources */,
 				7BD4D7EE1E05E9CC00FE1175 /* Stop.swift in Sources */,
 				7BD4D7F01E05EA6B00FE1175 /* Coordinates.swift in Sources */,
 			);
