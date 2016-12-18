@@ -13,7 +13,7 @@ public struct Stop {
     var id: Int
     var code: String
     var name: String
-    var coordinates: Coordinates
+    var coordinate: Coordinate
 }
 
 extension Stop: Decodable {
@@ -22,7 +22,10 @@ extension Stop: Decodable {
             id: json => "Id",
             code: json => "Code",
             name: json => "Name",
-            coordinates: (longitude: json => "X", latitude: json => "Y")
+            coordinate: Coordinate(
+                longitude: json => "X",
+                latitude: json => "Y"
+            )
         )
     }
 }
