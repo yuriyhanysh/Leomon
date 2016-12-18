@@ -10,6 +10,28 @@
 		7B73C6C81DFD832500CEAB74 /* Leomon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B73C6BE1DFD832500CEAB74 /* Leomon.framework */; };
 		7B73C6CD1DFD832500CEAB74 /* LeomonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73C6CC1DFD832500CEAB74 /* LeomonTests.swift */; };
 		7B73C6CF1DFD832500CEAB74 /* Leomon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B73C6C11DFD832500CEAB74 /* Leomon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B73C6D91DFDCF7900CEAB74 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73C6D81DFDCF7900CEAB74 /* API.swift */; };
+		7B73C6DD1DFF258700CEAB74 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73C6DC1DFF258700CEAB74 /* Client.swift */; };
+		7BC6EF891E06FE9D00075B5A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC6EF881E06FE9D00075B5A /* Result.swift */; };
+		7BC6EF8B1E0701EC00075B5A /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC6EF8A1E0701EC00075B5A /* ResultTests.swift */; };
+		7BC6EF8D1E0711A100075B5A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC6EF8C1E0711A100075B5A /* Error.swift */; };
+		7BD4D7EB1E05E6B200FE1175 /* Decodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4D7EA1E05E6B200FE1175 /* Decodable.framework */; };
+		7BD4D7EE1E05E9CC00FE1175 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7ED1E05E9CC00FE1175 /* Stop.swift */; };
+		7BD4D7F01E05EA6B00FE1175 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7EF1E05EA6B00FE1175 /* Coordinate.swift */; };
+		7BD4D7FC1E05F4ED00FE1175 /* StopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7FB1E05F4ED00FE1175 /* StopTests.swift */; };
+		7BD4D7FD1E05F4F300FE1175 /* Stop2.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4D7F81E05F4D200FE1175 /* Stop2.json */; };
+		7BD4D7FE1E05F4F600FE1175 /* Stop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4D7F71E05F4D200FE1175 /* Stop1.json */; };
+		7BD4D7FF1E05F4F900FE1175 /* Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7F51E05F37D00FE1175 /* Fixture.swift */; };
+		7BD4D8001E05F86A00FE1175 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B73C6CE1DFD832500CEAB74 /* Info.plist */; };
+		7BD4D8021E06C5EA00FE1175 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8011E06C5E900FE1175 /* Route.swift */; };
+		7BD4D8041E06C77600FE1175 /* Route.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4D8031E06C77600FE1175 /* Route.json */; };
+		7BD4D8061E06C7A800FE1175 /* RouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8051E06C7A800FE1175 /* RouteTests.swift */; };
+		7BD4D8081E06CE8100FE1175 /* Coordinate.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4D8071E06CE8100FE1175 /* Coordinate.json */; };
+		7BD4D80A1E06CE9600FE1175 /* CoordinateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8091E06CE9600FE1175 /* CoordinateTests.swift */; };
+		7BD4D80D1E06D4E300FE1175 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D80B1E06D4DF00FE1175 /* Vehicle.swift */; };
+		7BD4D80F1E06EF8D00FE1175 /* Monitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D80E1E06EF8D00FE1175 /* Monitoring.swift */; };
+		7BD4D8111E06F32500FE1175 /* MonitoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8101E06F32500FE1175 /* MonitoringTests.swift */; };
+		7BD4D8131E06F33100FE1175 /* Monitoring.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4D8121E06F33100FE1175 /* Monitoring.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +51,27 @@
 		7B73C6C71DFD832500CEAB74 /* LeomonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeomonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B73C6CC1DFD832500CEAB74 /* LeomonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeomonTests.swift; sourceTree = "<group>"; };
 		7B73C6CE1DFD832500CEAB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B73C6D81DFDCF7900CEAB74 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		7B73C6DC1DFF258700CEAB74 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		7BC6EF881E06FE9D00075B5A /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		7BC6EF8A1E0701EC00075B5A /* ResultTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
+		7BC6EF8C1E0711A100075B5A /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		7BD4D7EA1E05E6B200FE1175 /* Decodable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Decodable.framework; path = Carthage/Build/iOS/Decodable.framework; sourceTree = "<group>"; };
+		7BD4D7ED1E05E9CC00FE1175 /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		7BD4D7EF1E05EA6B00FE1175 /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		7BD4D7F51E05F37D00FE1175 /* Fixture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fixture.swift; path = Helpers/Fixture.swift; sourceTree = "<group>"; };
+		7BD4D7F71E05F4D200FE1175 /* Stop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Stop1.json; path = Fixtures/Stop1.json; sourceTree = "<group>"; };
+		7BD4D7F81E05F4D200FE1175 /* Stop2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Stop2.json; path = Fixtures/Stop2.json; sourceTree = "<group>"; };
+		7BD4D7FB1E05F4ED00FE1175 /* StopTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopTests.swift; sourceTree = "<group>"; };
+		7BD4D8011E06C5E900FE1175 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		7BD4D8031E06C77600FE1175 /* Route.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Route.json; path = Fixtures/Route.json; sourceTree = "<group>"; };
+		7BD4D8051E06C7A800FE1175 /* RouteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTests.swift; sourceTree = "<group>"; };
+		7BD4D8071E06CE8100FE1175 /* Coordinate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Coordinate.json; path = Fixtures/Coordinate.json; sourceTree = "<group>"; };
+		7BD4D8091E06CE9600FE1175 /* CoordinateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateTests.swift; sourceTree = "<group>"; };
+		7BD4D80B1E06D4DF00FE1175 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		7BD4D80E1E06EF8D00FE1175 /* Monitoring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monitoring.swift; sourceTree = "<group>"; };
+		7BD4D8101E06F32500FE1175 /* MonitoringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitoringTests.swift; sourceTree = "<group>"; };
+		7BD4D8121E06F33100FE1175 /* Monitoring.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Monitoring.json; path = Fixtures/Monitoring.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD4D7EB1E05E6B200FE1175 /* Decodable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +100,7 @@
 				7B73C6C01DFD832500CEAB74 /* Source */,
 				7B73C6CB1DFD832500CEAB74 /* Tests */,
 				7B73C6BF1DFD832500CEAB74 /* Products */,
+				7BD4D7E91E05E6B100FE1175 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +118,15 @@
 			children = (
 				7B73C6C11DFD832500CEAB74 /* Leomon.h */,
 				7B73C6C21DFD832500CEAB74 /* Info.plist */,
+				7B73C6D81DFDCF7900CEAB74 /* API.swift */,
+				7B73C6DC1DFF258700CEAB74 /* Client.swift */,
+				7BD4D7ED1E05E9CC00FE1175 /* Stop.swift */,
+				7BD4D7EF1E05EA6B00FE1175 /* Coordinate.swift */,
+				7BD4D8011E06C5E900FE1175 /* Route.swift */,
+				7BD4D80B1E06D4DF00FE1175 /* Vehicle.swift */,
+				7BD4D80E1E06EF8D00FE1175 /* Monitoring.swift */,
+				7BC6EF881E06FE9D00075B5A /* Result.swift */,
+				7BC6EF8C1E0711A100075B5A /* Error.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -80,10 +134,45 @@
 		7B73C6CB1DFD832500CEAB74 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				7BD4D7F41E05F34300FE1175 /* Helpers */,
+				7BD4D7F11E05EEBA00FE1175 /* Fixtures */,
 				7B73C6CC1DFD832500CEAB74 /* LeomonTests.swift */,
 				7B73C6CE1DFD832500CEAB74 /* Info.plist */,
+				7BD4D7FB1E05F4ED00FE1175 /* StopTests.swift */,
+				7BD4D8051E06C7A800FE1175 /* RouteTests.swift */,
+				7BD4D8091E06CE9600FE1175 /* CoordinateTests.swift */,
+				7BD4D8101E06F32500FE1175 /* MonitoringTests.swift */,
+				7BC6EF8A1E0701EC00075B5A /* ResultTests.swift */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		7BD4D7E91E05E6B100FE1175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4D7EA1E05E6B200FE1175 /* Decodable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BD4D7F11E05EEBA00FE1175 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4D8121E06F33100FE1175 /* Monitoring.json */,
+				7BD4D8071E06CE8100FE1175 /* Coordinate.json */,
+				7BD4D7F71E05F4D200FE1175 /* Stop1.json */,
+				7BD4D7F81E05F4D200FE1175 /* Stop2.json */,
+				7BD4D8031E06C77600FE1175 /* Route.json */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		7BD4D7F41E05F34300FE1175 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4D7F51E05F37D00FE1175 /* Fixture.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +197,7 @@
 				7B73C6BA1DFD832500CEAB74 /* Frameworks */,
 				7B73C6BB1DFD832500CEAB74 /* Headers */,
 				7B73C6BC1DFD832500CEAB74 /* Resources */,
+				7BD4D7EC1E05E73600FE1175 /* Carthage Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +239,7 @@
 					7B73C6BD1DFD832500CEAB74 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 82H4JW3586;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					7B73C6C61DFD832500CEAB74 = {
@@ -188,16 +279,49 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD4D8081E06CE8100FE1175 /* Coordinate.json in Resources */,
+				7BD4D7FD1E05F4F300FE1175 /* Stop2.json in Resources */,
+				7BD4D8041E06C77600FE1175 /* Route.json in Resources */,
+				7BD4D7FE1E05F4F600FE1175 /* Stop1.json in Resources */,
+				7BD4D8001E05F86A00FE1175 /* Info.plist in Resources */,
+				7BD4D8131E06F33100FE1175 /* Monitoring.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BD4D7EC1E05E73600FE1175 /* Carthage Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Decodable.framework",
+			);
+			name = "Carthage Copy Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B73C6B91DFD832500CEAB74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD4D80D1E06D4E300FE1175 /* Vehicle.swift in Sources */,
+				7B73C6DD1DFF258700CEAB74 /* Client.swift in Sources */,
+				7B73C6D91DFDCF7900CEAB74 /* API.swift in Sources */,
+				7BD4D7EE1E05E9CC00FE1175 /* Stop.swift in Sources */,
+				7BD4D80F1E06EF8D00FE1175 /* Monitoring.swift in Sources */,
+				7BD4D8021E06C5EA00FE1175 /* Route.swift in Sources */,
+				7BC6EF891E06FE9D00075B5A /* Result.swift in Sources */,
+				7BC6EF8D1E0711A100075B5A /* Error.swift in Sources */,
+				7BD4D7F01E05EA6B00FE1175 /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +330,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B73C6CD1DFD832500CEAB74 /* LeomonTests.swift in Sources */,
+				7BD4D8061E06C7A800FE1175 /* RouteTests.swift in Sources */,
+				7BD4D7FC1E05F4ED00FE1175 /* StopTests.swift in Sources */,
+				7BD4D8111E06F32500FE1175 /* MonitoringTests.swift in Sources */,
+				7BD4D80A1E06CE9600FE1175 /* CoordinateTests.swift in Sources */,
+				7BD4D7FF1E05F4F900FE1175 /* Fixture.swift in Sources */,
+				7BC6EF8B1E0701EC00075B5A /* ResultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,18 +452,24 @@
 		7B73C6D31DFD832500CEAB74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 82H4JW3586;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Leomon/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuriyhanysh.Leomon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,13 +477,18 @@
 		7B73C6D41DFD832500CEAB74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 82H4JW3586;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Leomon/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuriyhanysh.Leomon;
@@ -360,8 +501,9 @@
 		7B73C6D61DFD832500CEAB74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 82H4JW3586;
-				INFOPLIST_FILE = LeomonTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuriyhanysh.LeomonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -372,8 +514,9 @@
 		7B73C6D71DFD832500CEAB74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 82H4JW3586;
-				INFOPLIST_FILE = LeomonTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuriyhanysh.LeomonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
