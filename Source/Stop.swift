@@ -9,7 +9,7 @@
 import Foundation
 import Decodable
 
-struct Stop {
+public struct Stop {
     var id: Int
     var code: String
     var name: String
@@ -17,7 +17,7 @@ struct Stop {
 }
 
 extension Stop: Decodable {
-    static func decode(_ json: Any) throws -> Stop {
+    public static func decode(_ json: Any) throws -> Stop {
         return try Stop(
             id: json => "Id",
             code: json => "Code",

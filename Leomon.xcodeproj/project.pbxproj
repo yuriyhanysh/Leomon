@@ -20,6 +20,7 @@
 		7BD4D7FE1E05F4F600FE1175 /* Stop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4D7F71E05F4D200FE1175 /* Stop1.json */; };
 		7BD4D7FF1E05F4F900FE1175 /* Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7F51E05F37D00FE1175 /* Fixture.swift */; };
 		7BD4D8001E05F86A00FE1175 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B73C6CE1DFD832500CEAB74 /* Info.plist */; };
+		7BD4D8021E06C5EA00FE1175 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8011E06C5E900FE1175 /* Route.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7BD4D7F71E05F4D200FE1175 /* Stop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Stop1.json; path = Fixtures/Stop1.json; sourceTree = "<group>"; };
 		7BD4D7F81E05F4D200FE1175 /* Stop2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Stop2.json; path = Fixtures/Stop2.json; sourceTree = "<group>"; };
 		7BD4D7FB1E05F4ED00FE1175 /* StopTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopTests.swift; sourceTree = "<group>"; };
+		7BD4D8011E06C5E900FE1175 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				7B73C6DC1DFF258700CEAB74 /* Client.swift */,
 				7BD4D7ED1E05E9CC00FE1175 /* Stop.swift */,
 				7BD4D7EF1E05EA6B00FE1175 /* Coordinates.swift */,
+				7BD4D8011E06C5E900FE1175 /* Route.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				7B73C6DD1DFF258700CEAB74 /* Client.swift in Sources */,
 				7B73C6D91DFDCF7900CEAB74 /* API.swift in Sources */,
 				7BD4D7EE1E05E9CC00FE1175 /* Stop.swift in Sources */,
+				7BD4D8021E06C5EA00FE1175 /* Route.swift in Sources */,
 				7BD4D7F01E05EA6B00FE1175 /* Coordinates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
