@@ -25,6 +25,8 @@
 		7BD4D8061E06C7A800FE1175 /* RouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8051E06C7A800FE1175 /* RouteTests.swift */; };
 		7BD4D8081E06CE8100FE1175 /* Coordinate.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4D8071E06CE8100FE1175 /* Coordinate.json */; };
 		7BD4D80A1E06CE9600FE1175 /* CoordinateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8091E06CE9600FE1175 /* CoordinateTests.swift */; };
+		7BD4D80D1E06D4E300FE1175 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D80B1E06D4DF00FE1175 /* Vehicle.swift */; };
+		7BD4D80F1E06EF8D00FE1175 /* Monitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D80E1E06EF8D00FE1175 /* Monitoring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		7BD4D8051E06C7A800FE1175 /* RouteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTests.swift; sourceTree = "<group>"; };
 		7BD4D8071E06CE8100FE1175 /* Coordinate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Coordinate.json; path = Fixtures/Coordinate.json; sourceTree = "<group>"; };
 		7BD4D8091E06CE9600FE1175 /* CoordinateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateTests.swift; sourceTree = "<group>"; };
+		7BD4D80B1E06D4DF00FE1175 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		7BD4D80E1E06EF8D00FE1175 /* Monitoring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monitoring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				7BD4D7ED1E05E9CC00FE1175 /* Stop.swift */,
 				7BD4D7EF1E05EA6B00FE1175 /* Coordinate.swift */,
 				7BD4D8011E06C5E900FE1175 /* Route.swift */,
+				7BD4D80B1E06D4DF00FE1175 /* Vehicle.swift */,
+				7BD4D80E1E06EF8D00FE1175 /* Monitoring.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -291,9 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD4D80D1E06D4E300FE1175 /* Vehicle.swift in Sources */,
 				7B73C6DD1DFF258700CEAB74 /* Client.swift in Sources */,
 				7B73C6D91DFDCF7900CEAB74 /* API.swift in Sources */,
 				7BD4D7EE1E05E9CC00FE1175 /* Stop.swift in Sources */,
+				7BD4D80F1E06EF8D00FE1175 /* Monitoring.swift in Sources */,
 				7BD4D8021E06C5EA00FE1175 /* Route.swift in Sources */,
 				7BD4D7F01E05EA6B00FE1175 /* Coordinate.swift in Sources */,
 			);

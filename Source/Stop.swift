@@ -10,10 +10,10 @@ import Foundation
 import Decodable
 
 public struct Stop {
-    var id: Int
-    var code: String
-    var name: String
-    var coordinate: Coordinate
+    public var id: Int
+    public var code: String
+    public var name: String
+    public var coordinate: Coordinate
 }
 
 extension Stop: Decodable {
@@ -24,8 +24,7 @@ extension Stop: Decodable {
             name: json => "Name",
             coordinate: Coordinate(
                 longitude: json => "X",
-                latitude: json => "Y"
-            )
+                latitude: json => "Y")
         )
     }
 }
