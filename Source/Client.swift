@@ -9,23 +9,26 @@
 import Foundation
 
 open class Client {
-    var session: URLSession
+    public var session: URLSession
     
     init() {
         let configuration = URLSessionConfiguration.default
         session = URLSession(configuration: configuration)
     }
     
-    open func request(_ target: API, completion: @escaping (Any?) -> Void) {
-        session.dataTask(with: target.requestURL) { data, response, error in
+    open func request(_ target: API, completion: @escaping (Result<Any>) -> Void) {
+        session.dataTask(with: target.requestURL) { data, _, _ in
             guard let data = data else {
-                completion(nil)
+                completion(.failure(Error.responseFailure))
                 return
             }
             
-            let json = try? JSONSerialization.jsonObject(with: data)
+            guard let json = try? JSONSerialization.jsonObject(with: data) else {
+                completion(.failure(Error.jsonObjectCreationFailure))
+                return
+            }
             
-            completion(json)
+            completion(.success(json))
         }
     }
 }

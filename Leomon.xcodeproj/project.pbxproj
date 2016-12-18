@@ -14,6 +14,7 @@
 		7B73C6DD1DFF258700CEAB74 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73C6DC1DFF258700CEAB74 /* Client.swift */; };
 		7BC6EF891E06FE9D00075B5A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC6EF881E06FE9D00075B5A /* Result.swift */; };
 		7BC6EF8B1E0701EC00075B5A /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC6EF8A1E0701EC00075B5A /* ResultTests.swift */; };
+		7BC6EF8D1E0711A100075B5A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC6EF8C1E0711A100075B5A /* Error.swift */; };
 		7BD4D7EB1E05E6B200FE1175 /* Decodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4D7EA1E05E6B200FE1175 /* Decodable.framework */; };
 		7BD4D7EE1E05E9CC00FE1175 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7ED1E05E9CC00FE1175 /* Stop.swift */; };
 		7BD4D7F01E05EA6B00FE1175 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7EF1E05EA6B00FE1175 /* Coordinate.swift */; };
@@ -54,6 +55,7 @@
 		7B73C6DC1DFF258700CEAB74 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		7BC6EF881E06FE9D00075B5A /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		7BC6EF8A1E0701EC00075B5A /* ResultTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
+		7BC6EF8C1E0711A100075B5A /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		7BD4D7EA1E05E6B200FE1175 /* Decodable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Decodable.framework; path = Carthage/Build/iOS/Decodable.framework; sourceTree = "<group>"; };
 		7BD4D7ED1E05E9CC00FE1175 /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
 		7BD4D7EF1E05EA6B00FE1175 /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				7BD4D80B1E06D4DF00FE1175 /* Vehicle.swift */,
 				7BD4D80E1E06EF8D00FE1175 /* Monitoring.swift */,
 				7BC6EF881E06FE9D00075B5A /* Result.swift */,
+				7BC6EF8C1E0711A100075B5A /* Error.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				7BD4D80F1E06EF8D00FE1175 /* Monitoring.swift in Sources */,
 				7BD4D8021E06C5EA00FE1175 /* Route.swift in Sources */,
 				7BC6EF891E06FE9D00075B5A /* Result.swift in Sources */,
+				7BC6EF8D1E0711A100075B5A /* Error.swift in Sources */,
 				7BD4D7F01E05EA6B00FE1175 /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
