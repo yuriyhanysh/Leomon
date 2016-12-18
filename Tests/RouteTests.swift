@@ -13,14 +13,6 @@ class RouteTests: XCTestCase {
     let expected = Route(id: 713011, code: "C2|713011", name: "А36 Кропивницького - Винники")
     let fixture = Fixture.with(name: "Route")
     
-    override func setUp() {
-        super.setUp()
-    }
-    
-    override func tearDown() {
-        super.tearDown()
-    }
-
     func testThatItCreatesRouteFromJSON() {
         let actual = try! Route.decode(fixture)
         

@@ -24,14 +24,6 @@ class StopTests: XCTestCase {
     let fixture1 = Fixture.with(name: "Stop1")
     let fixture2 = Fixture.with(name: "Stop2")
     
-    override func setUp() {
-        super.setUp()
-    }
-    
-    override func tearDown() {
-        super.tearDown()
-    }
-    
     func testThatItCreatesStopFromJSON1() {
         let actual = try! Stop.decode(fixture1)
         

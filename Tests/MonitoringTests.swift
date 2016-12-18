@@ -23,14 +23,6 @@ class MonitoringTests: XCTestCase {
     )
     let fixture = Fixture.with(name: "Monitoring")
     
-    override func setUp() {
-        super.setUp()
-    }
-    
-    override func tearDown() {
-        super.tearDown()
-    }
-    
     func testThatItCreatesRouteFromJSON() {
         let actual = try! Monitoring.decode(fixture)
         
