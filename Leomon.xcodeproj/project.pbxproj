@@ -21,6 +21,8 @@
 		7BD4D7FF1E05F4F900FE1175 /* Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7F51E05F37D00FE1175 /* Fixture.swift */; };
 		7BD4D8001E05F86A00FE1175 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B73C6CE1DFD832500CEAB74 /* Info.plist */; };
 		7BD4D8021E06C5EA00FE1175 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8011E06C5E900FE1175 /* Route.swift */; };
+		7BD4D8041E06C77600FE1175 /* Route.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4D8031E06C77600FE1175 /* Route.json */; };
+		7BD4D8061E06C7A800FE1175 /* RouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8051E06C7A800FE1175 /* RouteTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		7BD4D7F81E05F4D200FE1175 /* Stop2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Stop2.json; path = Fixtures/Stop2.json; sourceTree = "<group>"; };
 		7BD4D7FB1E05F4ED00FE1175 /* StopTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopTests.swift; sourceTree = "<group>"; };
 		7BD4D8011E06C5E900FE1175 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		7BD4D8031E06C77600FE1175 /* Route.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Route.json; path = Fixtures/Route.json; sourceTree = "<group>"; };
+		7BD4D8051E06C7A800FE1175 /* RouteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 				7B73C6CC1DFD832500CEAB74 /* LeomonTests.swift */,
 				7B73C6CE1DFD832500CEAB74 /* Info.plist */,
 				7BD4D7FB1E05F4ED00FE1175 /* StopTests.swift */,
+				7BD4D8051E06C7A800FE1175 /* RouteTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			children = (
 				7BD4D7F71E05F4D200FE1175 /* Stop1.json */,
 				7BD4D7F81E05F4D200FE1175 /* Stop2.json */,
+				7BD4D8031E06C77600FE1175 /* Route.json */,
 			);
 			name = Fixtures;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BD4D7FD1E05F4F300FE1175 /* Stop2.json in Resources */,
+				7BD4D8041E06C77600FE1175 /* Route.json in Resources */,
 				7BD4D7FE1E05F4F600FE1175 /* Stop1.json in Resources */,
 				7BD4D8001E05F86A00FE1175 /* Info.plist in Resources */,
 			);
@@ -290,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B73C6CD1DFD832500CEAB74 /* LeomonTests.swift in Sources */,
+				7BD4D8061E06C7A800FE1175 /* RouteTests.swift in Sources */,
 				7BD4D7FC1E05F4ED00FE1175 /* StopTests.swift in Sources */,
 				7BD4D7FF1E05F4F900FE1175 /* Fixture.swift in Sources */,
 			);
