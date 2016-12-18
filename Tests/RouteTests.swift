@@ -10,8 +10,8 @@ import XCTest
 @testable import Leomon
 
 class RouteTests: XCTestCase {
-    var expected = Route(id: 713011, code: "C2|713011", name: "А36 Кропивницького - Винники")
-    var fixture = Fixture.with(name: "Route")
+    let expected = Route(id: 713011, code: "C2|713011", name: "А36 Кропивницького - Винники")
+    let fixture = Fixture.with(name: "Route")
     
     override func setUp() {
         super.setUp()

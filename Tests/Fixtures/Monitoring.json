@@ -1,0 +1,16 @@
+{
+    "Angle": 90.0,
+    "EndPoint": "",
+    "IterationEnd": null,
+    "IterationStart": null,
+    "RouteCode": null,
+    "RouteId": 923423,
+    "RouteName": "А29 Залізничний вокзал - Винники (Івасюка)",
+    "StartPoint": "",
+    "State": 1,
+    "TimeToPoint": -2115,
+    "VehicleId": 38066,
+    "VehicleName": "ВС 5701 АА",
+    "X": 24.1372666666667,
+    "Y": 49.8211
+}

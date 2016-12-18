@@ -16,8 +16,8 @@ public struct Monitoring {
 }
 
 extension Monitoring: Decodable {
-    public static func decode(_ json: Any) throws -> RouteMonitoringData {
-        return try RouteMonitoringData(
+    public static func decode(_ json: Any) throws -> Monitoring {
+        return try Monitoring(
             vehicle: Vehicle(
                 id: json => "VehicleId",
                 name: json => "VehicleName"),

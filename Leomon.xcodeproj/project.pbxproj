@@ -27,6 +27,8 @@
 		7BD4D80A1E06CE9600FE1175 /* CoordinateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8091E06CE9600FE1175 /* CoordinateTests.swift */; };
 		7BD4D80D1E06D4E300FE1175 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D80B1E06D4DF00FE1175 /* Vehicle.swift */; };
 		7BD4D80F1E06EF8D00FE1175 /* Monitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D80E1E06EF8D00FE1175 /* Monitoring.swift */; };
+		7BD4D8111E06F32500FE1175 /* MonitoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8101E06F32500FE1175 /* MonitoringTests.swift */; };
+		7BD4D8131E06F33100FE1175 /* Monitoring.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4D8121E06F33100FE1175 /* Monitoring.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		7BD4D8091E06CE9600FE1175 /* CoordinateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateTests.swift; sourceTree = "<group>"; };
 		7BD4D80B1E06D4DF00FE1175 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		7BD4D80E1E06EF8D00FE1175 /* Monitoring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monitoring.swift; sourceTree = "<group>"; };
+		7BD4D8101E06F32500FE1175 /* MonitoringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitoringTests.swift; sourceTree = "<group>"; };
+		7BD4D8121E06F33100FE1175 /* Monitoring.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Monitoring.json; path = Fixtures/Monitoring.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 				7BD4D7FB1E05F4ED00FE1175 /* StopTests.swift */,
 				7BD4D8051E06C7A800FE1175 /* RouteTests.swift */,
 				7BD4D8091E06CE9600FE1175 /* CoordinateTests.swift */,
+				7BD4D8101E06F32500FE1175 /* MonitoringTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 		7BD4D7F11E05EEBA00FE1175 /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
+				7BD4D8121E06F33100FE1175 /* Monitoring.json */,
 				7BD4D8071E06CE8100FE1175 /* Coordinate.json */,
 				7BD4D7F71E05F4D200FE1175 /* Stop1.json */,
 				7BD4D7F81E05F4D200FE1175 /* Stop2.json */,
@@ -269,6 +275,7 @@
 				7BD4D8041E06C77600FE1175 /* Route.json in Resources */,
 				7BD4D7FE1E05F4F600FE1175 /* Stop1.json in Resources */,
 				7BD4D8001E05F86A00FE1175 /* Info.plist in Resources */,
+				7BD4D8131E06F33100FE1175 /* Monitoring.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +321,7 @@
 				7B73C6CD1DFD832500CEAB74 /* LeomonTests.swift in Sources */,
 				7BD4D8061E06C7A800FE1175 /* RouteTests.swift in Sources */,
 				7BD4D7FC1E05F4ED00FE1175 /* StopTests.swift in Sources */,
+				7BD4D8111E06F32500FE1175 /* MonitoringTests.swift in Sources */,
 				7BD4D80A1E06CE9600FE1175 /* CoordinateTests.swift in Sources */,
 				7BD4D7FF1E05F4F900FE1175 /* Fixture.swift in Sources */,
 			);

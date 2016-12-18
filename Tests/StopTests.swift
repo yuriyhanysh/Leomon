@@ -10,19 +10,19 @@ import XCTest
 @testable import Leomon
 
 class StopTests: XCTestCase {
-    var expected1 = Stop(
+    let expected1 = Stop(
         id: 34602,
         code: "10143",
         name: "площа Кропивницького пр",
         coordinate: Coordinate(longitude: 24.0044, latitude: 49.83621))
-    var expected2 = Stop(
+    let expected2 = Stop(
         id: 36436,
         code: "0153",
         name: "Аеропорт (Термінал \"А\")",
         coordinate: Coordinate(longitude: 23.96037, latitude: 49.81379))
     
-    var fixture1 = Fixture.with(name: "Stop1")
-    var fixture2 = Fixture.with(name: "Stop2")
+    let fixture1 = Fixture.with(name: "Stop1")
+    let fixture2 = Fixture.with(name: "Stop2")
     
     override func setUp() {
         super.setUp()
