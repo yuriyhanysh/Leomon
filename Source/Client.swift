@@ -19,12 +19,12 @@ open class Client {
     open func request(_ target: API, completion: @escaping (Result<Any>) -> Void) {
         session.dataTask(with: target.requestURL) { data, _, _ in
             guard let data = data else {
-                completion(.failure(Error.responseFailure))
+                completion(.failure(LeomonError.responseFailure))
                 return
             }
             
             guard let json = try? JSONSerialization.jsonObject(with: data) else {
-                completion(.failure(Error.jsonObjectCreationFailure))
+                completion(.failure(LeomonError.jsonObjectCreationFailure))
                 return
             }
             

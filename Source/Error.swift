@@ -8,7 +8,7 @@
 
 import Foundation
 
-public enum Error: Swift.Error {
+public enum LeomonError: Swift.Error {
     case responseFailure
     case jsonObjectCreationFailure
 }
