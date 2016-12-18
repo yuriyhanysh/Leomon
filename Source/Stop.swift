@@ -20,8 +20,8 @@ extension Stop: Decodable {
     static func decode(_ json: Any) throws -> Stop {
         return try Stop(
             id: json => "Id",
-            code: "Code",
-            name: "Name",
+            code: json => "Code",
+            name: json => "Name",
             coordinates: (longitude: json => "X", latitude: json => "Y")
         )
     }

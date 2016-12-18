@@ -15,7 +15,11 @@
 		7BD4D7EB1E05E6B200FE1175 /* Decodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4D7EA1E05E6B200FE1175 /* Decodable.framework */; };
 		7BD4D7EE1E05E9CC00FE1175 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7ED1E05E9CC00FE1175 /* Stop.swift */; };
 		7BD4D7F01E05EA6B00FE1175 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7EF1E05EA6B00FE1175 /* Coordinates.swift */; };
-		7BD4D7F61E05F37D00FE1175 /* Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7F51E05F37D00FE1175 /* Fixture.swift */; };
+		7BD4D7FC1E05F4ED00FE1175 /* StopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7FB1E05F4ED00FE1175 /* StopTests.swift */; };
+		7BD4D7FD1E05F4F300FE1175 /* Stop2.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4D7F81E05F4D200FE1175 /* Stop2.json */; };
+		7BD4D7FE1E05F4F600FE1175 /* Stop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4D7F71E05F4D200FE1175 /* Stop1.json */; };
+		7BD4D7FF1E05F4F900FE1175 /* Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D7F51E05F37D00FE1175 /* Fixture.swift */; };
+		7BD4D8001E05F86A00FE1175 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B73C6CE1DFD832500CEAB74 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,9 @@
 		7BD4D7ED1E05E9CC00FE1175 /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
 		7BD4D7EF1E05EA6B00FE1175 /* Coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
 		7BD4D7F51E05F37D00FE1175 /* Fixture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fixture.swift; path = Helpers/Fixture.swift; sourceTree = "<group>"; };
+		7BD4D7F71E05F4D200FE1175 /* Stop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Stop1.json; path = Fixtures/Stop1.json; sourceTree = "<group>"; };
+		7BD4D7F81E05F4D200FE1175 /* Stop2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Stop2.json; path = Fixtures/Stop2.json; sourceTree = "<group>"; };
+		7BD4D7FB1E05F4ED00FE1175 /* StopTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +109,7 @@
 				7BD4D7F11E05EEBA00FE1175 /* Fixtures */,
 				7B73C6CC1DFD832500CEAB74 /* LeomonTests.swift */,
 				7B73C6CE1DFD832500CEAB74 /* Info.plist */,
+				7BD4D7FB1E05F4ED00FE1175 /* StopTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -117,6 +125,8 @@
 		7BD4D7F11E05EEBA00FE1175 /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
+				7BD4D7F71E05F4D200FE1175 /* Stop1.json */,
+				7BD4D7F81E05F4D200FE1175 /* Stop2.json */,
 			);
 			name = Fixtures;
 			sourceTree = "<group>";
@@ -233,6 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD4D7FD1E05F4F300FE1175 /* Stop2.json in Resources */,
+				7BD4D7FE1E05F4F600FE1175 /* Stop1.json in Resources */,
+				7BD4D8001E05F86A00FE1175 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +276,6 @@
 			files = (
 				7B73C6DD1DFF258700CEAB74 /* Client.swift in Sources */,
 				7B73C6D91DFDCF7900CEAB74 /* API.swift in Sources */,
-				7BD4D7F61E05F37D00FE1175 /* Fixture.swift in Sources */,
 				7BD4D7EE1E05E9CC00FE1175 /* Stop.swift in Sources */,
 				7BD4D7F01E05EA6B00FE1175 /* Coordinates.swift in Sources */,
 			);
@@ -274,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B73C6CD1DFD832500CEAB74 /* LeomonTests.swift in Sources */,
+				7BD4D7FC1E05F4ED00FE1175 /* StopTests.swift in Sources */,
+				7BD4D7FF1E05F4F900FE1175 /* Fixture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +455,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 82H4JW3586;
-				INFOPLIST_FILE = LeomonTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuriyhanysh.LeomonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,7 +468,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 82H4JW3586;
-				INFOPLIST_FILE = LeomonTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuriyhanysh.LeomonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
