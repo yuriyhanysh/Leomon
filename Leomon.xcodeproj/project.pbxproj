@@ -23,6 +23,8 @@
 		7BD4D8021E06C5EA00FE1175 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8011E06C5E900FE1175 /* Route.swift */; };
 		7BD4D8041E06C77600FE1175 /* Route.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4D8031E06C77600FE1175 /* Route.json */; };
 		7BD4D8061E06C7A800FE1175 /* RouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8051E06C7A800FE1175 /* RouteTests.swift */; };
+		7BD4D8081E06CE8100FE1175 /* Coordinate.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4D8071E06CE8100FE1175 /* Coordinate.json */; };
+		7BD4D80A1E06CE9600FE1175 /* CoordinateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4D8091E06CE9600FE1175 /* CoordinateTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		7BD4D8011E06C5E900FE1175 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		7BD4D8031E06C77600FE1175 /* Route.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Route.json; path = Fixtures/Route.json; sourceTree = "<group>"; };
 		7BD4D8051E06C7A800FE1175 /* RouteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTests.swift; sourceTree = "<group>"; };
+		7BD4D8071E06CE8100FE1175 /* Coordinate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Coordinate.json; path = Fixtures/Coordinate.json; sourceTree = "<group>"; };
+		7BD4D8091E06CE9600FE1175 /* CoordinateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 				7B73C6CE1DFD832500CEAB74 /* Info.plist */,
 				7BD4D7FB1E05F4ED00FE1175 /* StopTests.swift */,
 				7BD4D8051E06C7A800FE1175 /* RouteTests.swift */,
+				7BD4D8091E06CE9600FE1175 /* CoordinateTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 		7BD4D7F11E05EEBA00FE1175 /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
+				7BD4D8071E06CE8100FE1175 /* Coordinate.json */,
 				7BD4D7F71E05F4D200FE1175 /* Stop1.json */,
 				7BD4D7F81E05F4D200FE1175 /* Stop2.json */,
 				7BD4D8031E06C77600FE1175 /* Route.json */,
@@ -252,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD4D8081E06CE8100FE1175 /* Coordinate.json in Resources */,
 				7BD4D7FD1E05F4F300FE1175 /* Stop2.json in Resources */,
 				7BD4D8041E06C77600FE1175 /* Route.json in Resources */,
 				7BD4D7FE1E05F4F600FE1175 /* Stop1.json in Resources */,
@@ -299,6 +306,7 @@
 				7B73C6CD1DFD832500CEAB74 /* LeomonTests.swift in Sources */,
 				7BD4D8061E06C7A800FE1175 /* RouteTests.swift in Sources */,
 				7BD4D7FC1E05F4ED00FE1175 /* StopTests.swift in Sources */,
+				7BD4D80A1E06CE9600FE1175 /* CoordinateTests.swift in Sources */,
 				7BD4D7FF1E05F4F900FE1175 /* Fixture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

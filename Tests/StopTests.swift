@@ -14,12 +14,12 @@ class StopTests: XCTestCase {
         id: 34602,
         code: "10143",
         name: "площа Кропивницького пр",
-        coordinates: (longitude: 24.0044, latitude: 49.83621))
+        coordinate: Coordinate(longitude: 24.0044, latitude: 49.83621))
     var expected2 = Stop(
         id: 36436,
         code: "0153",
         name: "Аеропорт (Термінал \"А\")",
-        coordinates: (longitude: 23.96037, latitude: 49.81379))
+        coordinate: Coordinate(longitude: 23.96037, latitude: 49.81379))
     
     var fixture1 = Fixture.with(name: "Stop1")
     var fixture2 = Fixture.with(name: "Stop2")
@@ -38,8 +38,8 @@ class StopTests: XCTestCase {
         XCTAssertEqual(expected1.id, actual.id)
         XCTAssertEqual(expected1.code, actual.code)
         XCTAssertEqual(expected1.name, actual.name)
-        XCTAssertEqual(expected1.coordinates.latitude, actual.coordinates.latitude)
-        XCTAssertEqual(expected1.coordinates.longitude, actual.coordinates.longitude)
+        XCTAssertEqual(expected1.coordinate.latitude, actual.coordinate.latitude)
+        XCTAssertEqual(expected1.coordinate.longitude, actual.coordinate.longitude)
     }
     
     func testThatItCreatesStopFromJSON2() {
@@ -48,8 +48,8 @@ class StopTests: XCTestCase {
         XCTAssertEqual(expected2.id, actual.id)
         XCTAssertEqual(expected2.code, actual.code)
         XCTAssertEqual(expected2.name, actual.name)
-        XCTAssertEqual(expected2.coordinates.latitude, actual.coordinates.latitude)
-        XCTAssertEqual(expected2.coordinates.longitude, actual.coordinates.longitude)
+        XCTAssertEqual(expected2.coordinate.latitude, actual.coordinate.latitude)
+        XCTAssertEqual(expected2.coordinate.longitude, actual.coordinate.longitude)
     }
     
     func testThatItDoesNotCreateStopFromWrongJSON() {
