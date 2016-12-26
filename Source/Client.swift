@@ -17,21 +17,19 @@ open class Client {
     }
     
     open func request(_ target: API, completion: @escaping (Result<Any>) -> Void) {
-        session.dataTask(with: target.requestURL) { responseData, _, _ in
-            // Data is not data in reality :(
-            let object = responseData as Any
+        session.dataTask(with: target.requestURL) { data, _, _ in
+            let json = data
+                .flatMap { try? JSONSerialization.jsonObject(with: $0, options: .allowFragments) }
+                .flatMap { $0 as? String }
+                .flatMap { $0.data(using: .utf8) }
+                .flatMap { try? JSONSerialization.jsonObject(with: $0) }
             
-            guard let string = object as? String, let data = string.data(using: .utf8) else {
-                completion(.failure(LeomonError.responseFailure))
-                return
-            }
-            
-            guard let json = try? JSONSerialization.jsonObject(with: data) else {
+            guard let unwrapped = json else {
                 completion(.failure(LeomonError.jsonObjectCreationFailure))
                 return
             }
             
-            completion(.success(json))
-        }
+            completion(.success(unwrapped))
+        }.resume()
     }
 }

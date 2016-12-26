@@ -21,7 +21,7 @@ open class Leomon {
     }
     
     public static func fetchRoutes(completion: @escaping (Result<[Route]>) -> Void) {
-        Client().request(.stops) { result in
+        Client().request(.routes) { result in
             do {
                 let routes = try result.map { try [Route].decode($0) }
                 completion(routes)

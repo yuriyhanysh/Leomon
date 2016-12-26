@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/yuriyhanysh/Leomon.git", :tag => "#{s.version}" }
   s.source_files  = "Source", "Source/*.{h,swift}"
   s.framework  = "Foundation"
+
+  s.dependency "Decodable"
 end
