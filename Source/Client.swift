@@ -17,8 +17,11 @@ open class Client {
     }
     
     open func request(_ target: API, completion: @escaping (Result<Any>) -> Void) {
-        session.dataTask(with: target.requestURL) { data, _, _ in
-            guard let data = data else {
+        session.dataTask(with: target.requestURL) { responseData, _, _ in
+            // Data is not data in reality :(
+            let object = responseData as Any
+            
+            guard let string = object as? String, let data = string.data(using: .utf8) else {
                 completion(.failure(LeomonError.responseFailure))
                 return
             }
