@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BA545351E11CEF8000D6276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA545341E11CEF8000D6276 /* AppDelegate.swift */; };
+		7BA545371E11CEF8000D6276 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA545361E11CEF8000D6276 /* ViewController.swift */; };
+		7BA5453A1E11CEF8000D6276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA545381E11CEF8000D6276 /* Main.storyboard */; };
+		7BA5453C1E11CEF8000D6276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA5453B1E11CEF8000D6276 /* Assets.xcassets */; };
+		7BA5453F1E11CEF8000D6276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA5453D1E11CEF8000D6276 /* LaunchScreen.storyboard */; };
+		7BA545501E11CF25000D6276 /* Leomon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA5454C1E11CEFF000D6276 /* Leomon.framework */; };
+		7BA545511E11CF25000D6276 /* Leomon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA5454C1E11CEFF000D6276 /* Leomon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BA5454B1E11CEFF000D6276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA545461E11CEFF000D6276 /* Leomon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7B73C6BE1DFD832500CEAB74;
+			remoteInfo = Leomon;
+		};
+		7BA5454D1E11CEFF000D6276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA545461E11CEFF000D6276 /* Leomon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7B73C6C71DFD832500CEAB74;
+			remoteInfo = LeomonTests;
+		};
+		7BA545521E11CF25000D6276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA545461E11CEFF000D6276 /* Leomon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B73C6BD1DFD832500CEAB74;
+			remoteInfo = Leomon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BA545541E11CF25000D6276 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7BA545511E11CF25000D6276 /* Leomon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7BA545311E11CEF8000D6276 /* LeomonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeomonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA545341E11CEF8000D6276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BA545361E11CEF8000D6276 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BA545391E11CEF8000D6276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BA5453B1E11CEF8000D6276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BA5453E1E11CEF8000D6276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BA545401E11CEF8000D6276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA545461E11CEFF000D6276 /* Leomon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Leomon.xcodeproj; path = ../Leomon.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BA5452E1E11CEF8000D6276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA545501E11CF25000D6276 /* Leomon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BA545281E11CEF8000D6276 = {
+			isa = PBXGroup;
+			children = (
+				7BA545331E11CEF8000D6276 /* LeomonDemo */,
+				7BA545321E11CEF8000D6276 /* Products */,
+				7BA545461E11CEFF000D6276 /* Leomon.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		7BA545321E11CEF8000D6276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BA545311E11CEF8000D6276 /* LeomonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BA545331E11CEF8000D6276 /* LeomonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7BA545341E11CEF8000D6276 /* AppDelegate.swift */,
+				7BA545361E11CEF8000D6276 /* ViewController.swift */,
+				7BA545381E11CEF8000D6276 /* Main.storyboard */,
+				7BA5453B1E11CEF8000D6276 /* Assets.xcassets */,
+				7BA5453D1E11CEF8000D6276 /* LaunchScreen.storyboard */,
+				7BA545401E11CEF8000D6276 /* Info.plist */,
+			);
+			path = LeomonDemo;
+			sourceTree = "<group>";
+		};
+		7BA545471E11CEFF000D6276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BA5454C1E11CEFF000D6276 /* Leomon.framework */,
+				7BA5454E1E11CEFF000D6276 /* LeomonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BA545301E11CEF8000D6276 /* LeomonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA545431E11CEF8000D6276 /* Build configuration list for PBXNativeTarget "LeomonDemo" */;
+			buildPhases = (
+				7BA5452D1E11CEF8000D6276 /* Sources */,
+				7BA5452E1E11CEF8000D6276 /* Frameworks */,
+				7BA5452F1E11CEF8000D6276 /* Resources */,
+				7BA545541E11CF25000D6276 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA545531E11CF25000D6276 /* PBXTargetDependency */,
+			);
+			name = LeomonDemo;
+			productName = LeomonDemo;
+			productReference = 7BA545311E11CEF8000D6276 /* LeomonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BA545291E11CEF8000D6276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yuriy Hanysh";
+				TargetAttributes = {
+					7BA545301E11CEF8000D6276 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 82H4JW3586;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7BA5452C1E11CEF8000D6276 /* Build configuration list for PBXProject "LeomonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BA545281E11CEF8000D6276;
+			productRefGroup = 7BA545321E11CEF8000D6276 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7BA545471E11CEFF000D6276 /* Products */;
+					ProjectRef = 7BA545461E11CEFF000D6276 /* Leomon.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7BA545301E11CEF8000D6276 /* LeomonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7BA5454C1E11CEFF000D6276 /* Leomon.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Leomon.framework;
+			remoteRef = 7BA5454B1E11CEFF000D6276 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7BA5454E1E11CEFF000D6276 /* LeomonTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LeomonTests.xctest;
+			remoteRef = 7BA5454D1E11CEFF000D6276 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BA5452F1E11CEF8000D6276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA5453F1E11CEF8000D6276 /* LaunchScreen.storyboard in Resources */,
+				7BA5453C1E11CEF8000D6276 /* Assets.xcassets in Resources */,
+				7BA5453A1E11CEF8000D6276 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BA5452D1E11CEF8000D6276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA545371E11CEF8000D6276 /* ViewController.swift in Sources */,
+				7BA545351E11CEF8000D6276 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BA545531E11CF25000D6276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Leomon;
+			targetProxy = 7BA545521E11CF25000D6276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BA545381E11CEF8000D6276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA545391E11CEF8000D6276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BA5453D1E11CEF8000D6276 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA5453E1E11CEF8000D6276 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BA545411E11CEF8000D6276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BA545421E11CEF8000D6276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BA545441E11CEF8000D6276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82H4JW3586;
+				INFOPLIST_FILE = LeomonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriyhanysh.LeomonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7BA545451E11CEF8000D6276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82H4JW3586;
+				INFOPLIST_FILE = LeomonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriyhanysh.LeomonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BA5452C1E11CEF8000D6276 /* Build configuration list for PBXProject "LeomonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA545411E11CEF8000D6276 /* Debug */,
+				7BA545421E11CEF8000D6276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA545431E11CEF8000D6276 /* Build configuration list for PBXNativeTarget "LeomonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA545441E11CEF8000D6276 /* Debug */,
+				7BA545451E11CEF8000D6276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BA545291E11CEF8000D6276 /* Project object */;
+}
