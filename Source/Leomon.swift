@@ -10,7 +10,7 @@ import Foundation
 
 open class Leomon {
     public static func fetchStops(completion: @escaping (Result<[Stop]>) -> Void) {
-        Client().request(.stops) { result in
+        Webservice().request(.stops) { result in
             do {
                 let stops = try result.map { try [Stop].decode($0) }
                 completion(stops)
@@ -21,7 +21,7 @@ open class Leomon {
     }
     
     public static func fetchRoutes(completion: @escaping (Result<[Route]>) -> Void) {
-        Client().request(.routes) { result in
+        Webservice().request(.routes) { result in
             do {
                 let routes = try result.map { try [Route].decode($0) }
                 completion(routes)
